@@ -15,12 +15,13 @@ namespace projetofood.Models
         [MinLength(4, ErrorMessage ="Descrição deve ter no minimo {1} caracteres")]
         [MaxLength(50, ErrorMessage ="Descrição dever ter no maximo {1} caracteres")]
         public string DescricaoCurta{get;set;}
-        [Display(Name ="Preço")]
+        [Display(Name ="Descrição Detalhada")]
         [Required(ErrorMessage ="Informe a Descrição Detalhada")]
         [MinLength(20, ErrorMessage ="Descrição deve ter no minimo {1} caracteres")]
         [MaxLength(200, ErrorMessage ="Descrição dever ter no maximo {1} caracteres")]
         public string DescricaoDetalhada{get;set;}
-        [Display(Name ="Descrição Detalhada")]
+     
+        [Display(Name ="Preço")]
         [Required(ErrorMessage ="Informe o preço")]
         public double Preco{get; set;}
         [Display(Name ="Imagem Pequena")]

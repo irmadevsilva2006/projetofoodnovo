@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\projetofood\\projetofood.csproj": {}
+    "C:\\dev\\projetofoodnovo\\projetofood.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\projetofood\\projetofood.csproj": {
+    "C:\\dev\\projetofoodnovo\\projetofood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\projetofood\\projetofood.csproj",
+        "projectUniqueName": "C:\\dev\\projetofoodnovo\\projetofood.csproj",
         "projectName": "projetofood",
-        "projectPath": "C:\\DEV\\projetofood\\projetofood.csproj",
-        "packagesPath": "C:\\Users\\aluno Dev\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\projetofood\\obj\\",
+        "projectPath": "C:\\dev\\projetofoodnovo\\projetofood.csproj",
+        "packagesPath": "C:\\Users\\Aluno Dev\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\projetofoodnovo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aluno Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Aluno Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

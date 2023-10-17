@@ -1,15 +1,15 @@
 <div class="dropdown">
-    <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-
+    <a class="btn btn-secondary dropdown-toggle bg-warning" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-
         expanded="false">
 
-        Moveis
+        Itens
     </a>
     <ul class="dropdown-menu">
         @foreach (var categoria in Model)
         {
             <li>
 
-                <a class="dropdown-item" asp-controller="Item" asp-action="List" style="color:black" asp-route-categoria="@categoria.Nome">@categoria.Nome</a>
+                <a class="dropdown-item" asp-controller="Item" asp-action="List" style="color:rgb(16, 15, 15)" asp-route-categoria="@categoria.Nome">@categoria.Nome</a>
 
             </li>
         }
