@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XcJuZvJYfTSgXF4kRwtOiM6B0zc/yWUWU9xYUIhsjAo=",
+  "Hash": "ast9wsH2nUWneo/Nep8hcs27x3qa6L4e8m+Rc9mUhlQ=",
   "Source": "projetofood",
   "BasePath": "_content/projetofood",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\sorvete20.png"
+    },
+    {
+      "Identity": "C:\\dev\\projetofoodnovo\\wwwroot\\imagens\\sorveteria.png",
+      "SourceId": "projetofood",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\projetofoodnovo\\wwwroot\\",
+      "BasePath": "_content/projetofood",
+      "RelativePath": "imagens/sorveteria.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\sorveteria.png"
     },
     {
       "Identity": "C:\\dev\\projetofoodnovo\\wwwroot\\js\\site.js",

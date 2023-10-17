@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\imagens\\sorvete20.png"
     },
     {
+      "Id": "C:\\dev\\projetofoodnovo\\wwwroot\\imagens\\sorveteria.png",
+      "PackagePath": "staticwebassets\\imagens\\sorveteria.png"
+    },
+    {
       "Id": "C:\\dev\\projetofoodnovo\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

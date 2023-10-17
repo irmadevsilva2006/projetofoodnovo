@@ -1,11 +1,11 @@
 @model LoginViewModel
 <table class="table">
     <tr>
-        <td><img src="~/images/login1.jpg" class="img-fluid" asp-append-version="true" alt="Fazer o Login" /></td>
+        <td><img src="~/images/login1.jpg" class="img-fluid" asp-append-version="true" alt="Logar usuário" /></td>
         <td>
             <div class="row">
                 <div class="col-9 col-md-9 col-lg-9">
-                    <h4>Login</h4>
+                    <h4>LOGIN</h4>
                     <form asp-controller="Account" asp-action="Login" method="post" class="form-horizontal" role="form">
                         <hr />
                         <div asp-validation-summary="All" class="text-danger"></div>
@@ -26,7 +26,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-md-8 mt-2">
-                                <input type="submit" class="btn btn-success" value="Log in" />
+                                <input type="submit" class="btn btn-warning" value="Logar" />
                             </div>
                         </div>
                     </form>
