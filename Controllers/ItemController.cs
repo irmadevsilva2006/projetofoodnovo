@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using projetofood.Models;
 using projetofood.Repositories;
@@ -6,6 +7,8 @@ using projetofood.ViewModel;
 
 namespace projetofood.Controllers
 {
+
+  
     public class ItemController : Controller
     {
         private readonly IItemRepository _itemRespository;
