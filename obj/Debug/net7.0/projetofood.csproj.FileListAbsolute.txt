@@ -280,3 +280,9 @@ C:\DEV\projetofood\obj\Debug\net7.0\projetofood.pdb
 C:\DEV\projetofood\obj\Debug\net7.0\projetofood.genruntimeconfig.cache
 C:\DEV\projetofood\obj\Debug\net7.0\ref\projetofood.dll
 C:\DEV\projetofood\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\DEV\projetofood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\DEV\projetofood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\DEV\projetofood\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\DEV\projetofood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\DEV\projetofood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\DEV\projetofood\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

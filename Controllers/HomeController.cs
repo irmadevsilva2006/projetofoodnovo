@@ -1,10 +1,12 @@
 ﻿using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using projetofood.Models;
 using projetofood.Repositories.Interfaces;
 using projetofood.ViewModel;
 
 namespace projetofood.Controllers;
+
 
 public class HomeController : Controller
 {

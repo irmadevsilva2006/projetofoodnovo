@@ -1,12 +1,17 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using projetofood.Context;
 using projetofood.Models;
 using projetofood.Repositories;
 using projetofood.Repositories.Interfaces;
+using projetofood.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddTransient<IPedidoRepository, PedidoRepository>();
+builder.Services.AddScoped<IUserRoleInicial, UserRoleInicial>();
+builder.Services.AddIdentity<UserAcount, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 builder.Services.AddScoped(sp => Carrinho.GetCarrinhoCompra(sp));
 builder.Services.AddMemoryCache();
 builder.Services.AddSession();
@@ -30,9 +35,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+CriarPerfisUsuarios(app);
 app.UseSession();
-
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllerRoute(
 name: "categoriaFiltro",
@@ -49,3 +56,12 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+static void CriarPerfisUsuarios(WebApplication app)
+{
+var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
+using var scope = scopedFactory?.CreateScope();
+var service = scope?.ServiceProvider.GetService<IUserRoleInicial>();
+service?.SeedRoles();
+service?.SeedUsers();
+}
